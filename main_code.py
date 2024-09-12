@@ -192,6 +192,7 @@ def send_trigger_to_navigator():
     except FileNotFoundError as e:
         print(f"File error: {e}")
         update_gui(f"File Error: {e}")
+
 def init():
     """Initialize the observer, file check, and GUI."""
     global observer
